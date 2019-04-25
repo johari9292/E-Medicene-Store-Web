@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="37ab21b9aef944e0b0c99b8c86941e63" Name="Diagram1">
+        <EntityTypeShape EntityType="DB42Model.Admin" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB42Model.Bill" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB42Model.Company" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB42Model.Dealer" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB42Model.Product" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB42Model.Purchase" Width="1.5" PointX="8.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB42Model.Sale" Width="1.5" PointX="5.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB42Model.StaffDetail" Width="1.5" PointX="8.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB42Model.StaffSalery" Width="1.5" PointX="11" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB42Model.Stock" Width="1.5" PointX="5.25" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB42Model.sysdiagram" Width="1.5" PointX="7.75" PointY="11.5" IsExpanded="true" />
+        <AssociationConnector Association="DB42Model.FK__Bill__ProductID__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="DB42Model.FK__Product__Company__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="DB42Model.FK__Purchase__Dealer__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="DB42Model.FK__Purchase__Produc__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="DB42Model.FK__Sales__ProductID__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="DB42Model.FK__Stock__ProductID__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="DB42Model.FK__StaffSale__Staff__59063A47" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
